@@ -12,6 +12,12 @@ class Song
   @@all  
   end 
   
+  
+  def artist_name(name)
+    
+  end
+  
+  
   def self.new_by_filename(tile)
     song_info = tile.chomp(".mp3").split("-")
     song = Song.new(song_info[1])
