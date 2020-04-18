@@ -14,6 +14,8 @@ class Song
   
   
   def artist_name(name)
+  name.string 
+  
     
   end
   
@@ -24,6 +26,8 @@ class Song
     song.artist.name = song_info[0]
     song
   end
+  
+  
   
   
   
