@@ -14,7 +14,7 @@ class Song
   
   
   def artist_name(name)
-  name.string 
+  self.artist = Artist
   
     
   end
